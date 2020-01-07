@@ -72,3 +72,20 @@ footer p {
 .figure-img:hover a {
   opacity: 1;
 }
+
+.breadcrumb {
+  margin-top: 100px;
+}
+
+.product-thumbnail-container {
+  background-color: white;
+  box-shadow: 0 4px 15px rgb(0, 0, 0, 0.1);
+  width: 360px;
+  padding: 8px;
+  margin: auto;
+  transform: translateY(-50px);
+}
+
+.product-thumbnail-container a:hover {
+  text-decoration: none;
+}
