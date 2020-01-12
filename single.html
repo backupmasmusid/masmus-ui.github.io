@@ -13,18 +13,19 @@
   <link rel="stylesheet" href="css/all.css">
 
   <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:200,400,700&display=swap"
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:200,400,600&display=swap"
     rel="stylesheet">
 
   <!-- My CSS -->
   <link rel="stylesheet" href="css/style.css">
 
-  <title>Must Store</title>
+  <title>Hefa Store</title>
 </head>
 
 <body>
+
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top border-bottom-1">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
     <div class="container">
       <a class="navbar-brand" href="#">
         <img src="img/logo_small.png" alt="Hefa Store">
@@ -48,11 +49,12 @@
             <a class="nav-link" href="#">About</a>
           </li>
         </ul>
-        <a href="" class="nav-link text-white"><i class="fas fa-shopping-cart"></i>My Cart (<span>12</span>)</a>
+        <a href="" class="nav-link text-white"><i class="fas fa-shopping-cart"></i> My Cart (<span>12</span>)</a>
       </div>
     </div>
   </nav>
   <!-- Akhir Navbar -->
+
   <!-- Breadcrumbs -->
   <div class="container mt-5">
     <nav>
@@ -62,12 +64,12 @@
       </ol>
     </nav>
   </div>
-  <!-- Akhir Breadcrumb -->
+
   <!-- Single Product -->
   <section class="single-product">
     <div class="container">
       <div class="row">
-        <div class="col-5">
+        <div class="col-lg-5">
           <figure class="figure">
             <img src="img/single/1.png" class="figure-img img-fluid">
             <figcaption class="figure-caption product-thumbnail-container d-flex justify-content-between">
@@ -86,19 +88,132 @@
             </figcaption>
           </figure>
         </div>
-        <div class="col">
-          <h3>Jeans Geodarno</h3>
-          <p class="text-muted">IDR 200.000</p>
+
+        <div class="col-lg-4">
+          <h3>Jeans: Giordano XI</h3>
+          <p class="text-muted">IDR 290.000.000</p>
           <button type="button" class="btn btn-sm" style="background-color: #EAEAEF; color: white;"><i
               class="fas fa-minus-circle"></i></button>
           <span class="mx-2">20</span>
           <button type="button" class="btn btn-sm btn-success" style="color: white;"><i
               class="fas fa-plus-circle"></i></button>
+
+          <div class="btn-product">
+            <a href="" class="btn btn-warning text-white">Add to Cart</a>
+            <a href="" class="btn" style="background-color: #EAEAEF; color: #ADADAD;">Add to Wishlist</a>
+          </div>
+
+          <div class="designed-by">
+            <h5>Designed by</h5>
+            <div class="row">
+              <div class="col-2">
+                <img src="img/single/2.png">
+              </div>
+              <div class="col">
+                <h4>Anne Mortgery</h4>
+                <p>14.2K <span>Followers</span></p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
-  <!-- Akhir Single Product -->
+
+
+  <!-- Product Description & Review -->
+  <section class="product-description p-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9">
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="description-tab" data-toggle="tab" href="#description" role="tab"
+                aria-controls="description" aria-selected="true">Product Description</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="review-tab" data-toggle="tab" href="#review" role="tab" aria-controls="review"
+                aria-selected="false">Reviews (20)</a>
+            </li>
+          </ul>
+          <div class="tab-content p-3" id="myTabContent">
+            <div class="tab-pane fade show active product-review" id="description" role="tabpanel"
+              aria-labelledby="description-tab">
+              <p>Payday is finally here and you’ve got some extra cash to help you stock up your summer
+                wardrobe. Not sure where to start? ASOS Stylist Beccy Goldsworthy is here with the best of what’s
+                new, from 80s-inspired tracksuits to some seriously fresh trainers. Check out her picks below
+                and watch the video for more.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec felis metus. Vivamus eu urna
+                tempor, pretium erat quis, volutpat eros. Cras consectetur dolor at venenatis feugiat. Fusce
+                nunc risus, finibus eget augue ac, ornare gravida turpis. Morbi consequat, nisi sit amet viverra
+                feugiat, lacus mauris ornare erat, at pharetra odio dolor id elit. Pellentesque eu aliquet ex.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="tab-pane fade product-review" id="review" role="tabpanel" aria-labelledby="review-tab">
+              <div class="row">
+                <div class="col-1 d-none d-md-block">
+                  <img src="img/single/review/1.png">
+                </div>
+                <div class="col">
+                  <h5>Joe Mackenzie</h5>
+                  <p>Produknya bagus dan bahannya juga rapih cocok untuk kulit</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-1 d-none d-md-block">
+                  <img src="img/single/review/2.png">
+                </div>
+                <div class="col">
+                  <h5>Brian Smith</h5>
+                  <p>Produknya bagus dan bahannya juga rapih cocok untuk kulit</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-1 d-none d-md-block">
+                  <img src="img/single/review/1.png">
+                </div>
+                <div class="col">
+                  <h5>Joe Mackenzie</h5>
+                  <p>Produknya bagus dan bahannya juga rapih cocok untuk kulit</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-1 d-none d-md-block">
+                  <img src="img/single/review/2.png">
+                </div>
+                <div class="col">
+                  <h5>Brian Smith</h5>
+                  <p>Produknya bagus dan bahannya juga rapih cocok untuk kulit</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-1 d-none d-md-block">
+                  <img src="img/single/review/1.png">
+                </div>
+                <div class="col">
+                  <h5>Joe Mackenzie</h5>
+                  <p>Produknya bagus dan bahannya juga rapih cocok untuk kulit</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-1 d-none d-md-block">
+                  <img src="img/single/review/2.png">
+                </div>
+                <div class="col">
+                  <h5>Brian Smith</h5>
+                  <p>Produknya bagus dan bahannya juga rapih cocok untuk kulit</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Akhir Product Description & Review -->
+
+
+
   <!-- Footer -->
   <footer class="border-top p-5">
     <div class="container">
@@ -121,21 +236,26 @@
         </div>
       </div>
       <div class="row mt-3 justify-content-between">
-        <div class="col">
-          <p>All Right Reserved by Must Store Copyright 2020</p>
+        <div class="col-5">
+          <p>All Rights Reserved by Hefa Store Copyright 2019.</p>
         </div>
-        <div class="col-6 justify-content-between">
+        <div class="col-6">
           <nav class="nav justify-content-end text-uppercase">
-            <a class="nav-link" href="#">Job</a>
+            <a class="nav-link active" href="#">Jobs</a>
             <a class="nav-link" href="#">Developer</a>
-            <a class="nav-link" href="#">Term</a>
-            <a class="nav-link pr-0" href="">Privacy Policy</a>
+            <a class="nav-link" href="#">Terms</a>
+            <a class="nav-link pr-0" href="#">Privacy Policy</a>
           </nav>
         </div>
       </div>
     </div>
   </footer>
   <!-- Akhir Footer -->
+
+
+
+
+
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
